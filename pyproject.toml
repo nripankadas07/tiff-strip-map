@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tiff-strip-map"
+version = "0.1.0"
+description = "Map classic TIFF IFD metadata and grayscale strip ownership, including aliases and out-of-file evidence."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+[project.scripts]
+tiff-strip-map = "tiff_strip_map:main"
+[tool.setuptools]
+py-modules = ["tiff_strip_map"]

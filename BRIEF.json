@@ -1,0 +1,28 @@
+{
+  "repo": "tiff-strip-map",
+  "units": 9,
+  "capability": "Map classic TIFF IFD metadata and grayscale strip ownership, including aliases and out-of-file evidence.",
+  "user": "Image ingestion maintainers investigating a small grayscale TIFF.",
+  "pain": "Offset/count arrays and inline fields can conceal metadata/strip collisions before pixel decoding.",
+  "comparables": [
+    "lovell/sharp",
+    "libvips/libvips",
+    "cgohlke/tifffile"
+  ],
+  "leader": "lovell/sharp",
+  "query": "TIFF image",
+  "contract": "Classic TIFF II/MM version42. At most32 acyclic word-aligned IFDs,128 fields per IFD; known field types1..12 have bounded payload extents and inline values up to4 bytes. Width/height, explicit8-bit samples, compression1, grayscale photometric0/1, one sample and contiguous planar layout. Explicit rows-per-strip and exact offset/count array sizes, including final partial strip. Expected raw bytes equal width times strip rows. Strip/strip and strip/metadata overlaps are exit1 findings with no winner policy; exact aliases remain visible.",
+  "limits": "8 MiB, width/height/rows1..1000000,4096 decoded values per interpreted tag,4096 strips total, first256 overlaps retained plus omitted count. No BigTIFF, compression, tiles, SubIFDs, color images, pixel decoding, orientation transforms, GeoTIFF/OME interpretation, metadata cleanup or full baseline TIFF conformance validation. Metadata/metadata aliases are not classified.",
+  "acceptance": "Both endians, inline/out-of-line arrays, partial strips, exact aliases, metadata collisions, IFD cycles, bad counts/bounds and explicit unsupported format refusal.",
+  "notes": "Sharp and libvips are broader processing/conversion libraries. Tifffile already exposes data offsets/bytecounts and supports far more TIFF variants. Issue333 about inline ASCII offsets informed careful field storage tests; it is adjacent evidence, not verified demand or a claim that current alternatives lack this capability.",
+  "overlap": "Owned png-metadata-scrub edits PNG ancillary chunks. This TIFF project reads IFD/strip ownership under a different binary contract and does not edit files.",
+  "topics": [
+    "tiff",
+    "image-processing",
+    "python",
+    "data-validation"
+  ],
+  "standard": "https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf",
+  "expected": "Exit0: a2x2 invented image has one strip at bytes122..126 with no ownership overlaps.",
+  "module": "tiff_strip_map"
+}
