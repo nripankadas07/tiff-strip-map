@@ -1,0 +1,272 @@
+{
+  "comparables": [
+    {
+      "full": "lovell/sharp",
+      "url": "https://github.com/lovell/sharp",
+      "stars": 32775,
+      "pushed_at": "2026-10-15T07:10:34Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "observed": "2026-10-19T06:23:16.474Z",
+      "issues": [
+        {
+          "number": 4629,
+          "url": "https://github.com/lovell/sharp/issues/4629",
+          "title": "Defective `is.object(null)` Validation Causing Unhandled `TypeError` Crashes"
+        },
+        {
+          "number": 4621,
+          "url": "https://github.com/lovell/sharp/issues/4621",
+          "title": "heif() with compression 'hevc' fails with 'Invalid parameter value (5.2006)' due to default tune 'auto'"
+        },
+        {
+          "number": 4620,
+          "url": "https://github.com/lovell/sharp/issues/4620",
+          "title": "Copied ICC profile leaks when processing rejects before ownership transfer"
+        },
+        {
+          "number": 4619,
+          "url": "https://github.com/lovell/sharp/issues/4619",
+          "title": "Enhancement: CICP interpretation and conversion"
+        },
+        {
+          "number": 4614,
+          "url": "https://github.com/lovell/sharp/pull/4614",
+          "title": "Document resize kernels with a side-by-side comparison"
+        }
+      ]
+    },
+    {
+      "full": "libvips/libvips",
+      "url": "https://github.com/libvips/libvips",
+      "stars": 11744,
+      "pushed_at": "2026-10-18T10:12:35Z",
+      "archived": false,
+      "license": "LGPL-2.1",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.378Z",
+      "issues": [
+        {
+          "number": 5257,
+          "url": "https://github.com/libvips/libvips/pull/5257",
+          "title": "tiffload: limit total image height"
+        },
+        {
+          "number": 5238,
+          "url": "https://github.com/libvips/libvips/issues/5238",
+          "title": "The road to libvips 8.19"
+        },
+        {
+          "number": 5237,
+          "url": "https://github.com/libvips/libvips/issues/5237",
+          "title": "jxlsave fails with invalid color profiles"
+        },
+        {
+          "number": 5229,
+          "url": "https://github.com/libvips/libvips/pull/5229",
+          "title": "Use actual sRGB gamma by default"
+        },
+        {
+          "number": 5225,
+          "url": "https://github.com/libvips/libvips/issues/5225",
+          "title": "alignment of >8-bit types in ppmload"
+        }
+      ]
+    },
+    {
+      "full": "cgohlke/tifffile",
+      "url": "https://github.com/cgohlke/tifffile",
+      "stars": 671,
+      "pushed_at": "2026-10-16T00:33:22Z",
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.348Z",
+      "issues": [
+        {
+          "number": 335,
+          "url": "https://github.com/cgohlke/tifffile/issues/335",
+          "title": "Feature request: Option for multiscale images opened with aszarr to be valid OME-Zarr"
+        },
+        {
+          "number": 333,
+          "url": "https://github.com/cgohlke/tifffile/issues/333",
+          "title": "NDPI: ASCII tag values that fit in the 4-byte value field are read as file offsets"
+        }
+      ]
+    }
+  ],
+  "readmes": [
+    {
+      "repo": "lovell/sharp",
+      "path": "README.md",
+      "sha": "7db7edda0c1c3ef47956a1c77a92994b0664f102"
+    },
+    {
+      "repo": "libvips/libvips",
+      "path": "README.md",
+      "sha": "10a2edcf95ba94bd5141ac8c1ac9624ced0b6077"
+    },
+    {
+      "repo": "cgohlke/tifffile",
+      "path": "README.rst",
+      "sha": "b42f3695ded36c10c8615b99ed9ea6a0caf29560"
+    }
+  ],
+  "source_references": [
+    {
+      "repo": "cgohlke/tifffile",
+      "path": "tifffile/tifffile.py",
+      "sha": "5d019593860d78cdd14efdc487b36f62c0989a33",
+      "observed": "2026-10-19T06:24:10.437Z"
+    }
+  ],
+  "queries": [
+    {
+      "query": "FITS astronomy",
+      "url": "https://github.com/search?q=FITS%20astronomy&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:32.368Z",
+      "sort": "Most stars",
+      "results": [
+        "ATTron/astroz",
+        "sherpa/sherpa",
+        "esheldon/fitsio",
+        "TheCyberBrick/FITS-Rating-Tool",
+        "danieljprice/splash",
+        "Hrishikesh332/Astronomy_Analysis",
+        "nom-tam-fits/nom-tam-fits",
+        "onekiloparsec/QLFits",
+        "astroclubiitk/Computational-Astrophysics-2021",
+        "JuliaAstro/FITSIO.jl"
+      ]
+    },
+    {
+      "query": "ELF parser",
+      "url": "https://github.com/search?q=ELF%20parser&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:33.523Z",
+      "sort": "Most stars",
+      "results": [
+        "lief-project/LIEF",
+        "eliben/pyelftools",
+        "m4b/goblin",
+        "elfmaster/libelfmaster",
+        "zszszszsz/.config",
+        "aclements/libelfin",
+        "cole14/rust-elf",
+        "finixbit/elf-parser",
+        "aep/elfkit",
+        "fornwall/jelf"
+      ]
+    },
+    {
+      "query": "TIFF image",
+      "url": "https://github.com/search?q=TIFF%20image&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:34.587Z",
+      "sort": "Most stars",
+      "results": [
+        "lovell/sharp",
+        "libvips/libvips",
+        "SixLabors/ImageSharp",
+        "Lymphatus/caesium-image-compressor",
+        "sylikc/jpegview",
+        "drewnoakes/metadata-extractor",
+        "JimBobSquarePants/ImageProcessor",
+        "woelper/oculante",
+        "davidbyttow/govips",
+        "Tom94/tev"
+      ]
+    },
+    {
+      "query": "bin packing",
+      "url": "https://github.com/search?q=bin%20packing&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:35.685Z",
+      "sort": "Most stars",
+      "results": [
+        "cfig/Android_boot_image_editor",
+        "alexfrom0815/Online-3D-BPP-PCT",
+        "juj/RectangleBinPack",
+        "alexfrom0815/Online-3D-BPP-DRL",
+        "jakesgordon/bin-packing",
+        "dvdoug/BoxPacker",
+        "skjolber/3d-bin-container-packing",
+        "enzoruiz/3dbinpacking",
+        "jerry800416/3D-bin-packing",
+        "Flamethr0wer/polygon-packer"
+      ]
+    },
+    {
+      "query": "DRAT proof",
+      "url": "https://github.com/search?q=DRAT%20proof&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:36.716Z",
+      "sort": "Most stars",
+      "results": [
+        "marijnheule/drat-trim",
+        "digama0/frat",
+        "krobelus/rate",
+        "jesse-michael-han/neurocuber-public",
+        "marijnheule/pr2drat",
+        "jingchaochen/abcdSAT_Rat",
+        "benjaminkiesl/drat2er",
+        "cmu-transparency/verified_rup",
+        "prateekkumarweb/sat-verifier",
+        "jjasferreira/maxsat-core-bench"
+      ]
+    },
+    {
+      "query": "cutting stock",
+      "url": "https://github.com/search?q=cutting%20stock&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:22.814Z",
+      "sort": "Most stars",
+      "results": [
+        "danderfer/Comp_Sci_Sem_2",
+        "bozokopic/opcut",
+        "emadehsan/csp",
+        "kaiT2en/KaiT2en-Fedora",
+        "fabiofdsantos/2d-cutting-stock-problem",
+        "shivamim/Finance_AgenticAI",
+        "Jimmymugendi/Realtime-Data-Pipeline-for-Stock-Market-Analysis",
+        "AlexanderMorozovDesign/Linear_Cutting",
+        "MasumBhuiyan/2D-Irregular-Cutting-Stock-Algorithm",
+        "ccorcos/stock-cutting"
+      ]
+    },
+    {
+      "query": "Astropy",
+      "url": "https://github.com/search?q=Astropy&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:24.018Z",
+      "sort": "Most stars",
+      "results": [
+        "astropy/astropy",
+        "sunpy/sunpy",
+        "astropy/astroquery",
+        "asdf-format/asdf",
+        "astropy-learn/astropy-tutorials",
+        "astropy/photutils",
+        "gammapy/gammapy",
+        "astropy/specutils",
+        "astropy/astropy-workshop",
+        "astropy/ccd-reduction-and-photometry-guide"
+      ]
+    },
+    {
+      "query": "DRUP",
+      "url": "https://github.com/search?q=DRUP&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:25.128Z",
+      "sort": "Most stars",
+      "results": [
+        "drupal/drupal",
+        "drupal-composer/drupal-project",
+        "fossasia/phimpme-drupal",
+        "geerlingguy/drupal-vm",
+        "wodby/docker4drupal",
+        "hechoendrupal/drupal-console",
+        "perusio/drupal-with-nginx",
+        "chapter-three/next-drupal",
+        "immunIT/drupwn",
+        "dreadlocked/Drupalgeddon2"
+      ]
+    }
+  ],
+  "primary_reference": "https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf"
+}
